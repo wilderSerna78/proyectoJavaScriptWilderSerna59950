@@ -15,7 +15,7 @@ class RegistrarClientes {
         console.log("Activo!")
     }
     inactivo() {
-        console.log("Agotado!")
+        console.log("Inactivo!")
     } 
 }
 
