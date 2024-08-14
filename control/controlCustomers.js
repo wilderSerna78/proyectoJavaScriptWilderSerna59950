@@ -21,5 +21,5 @@ class RegistrarClientes {
 
 const cliente1 = new RegistrarClientes("73569874","Carlos andres","sepulveda ruiz","carlos25@gmail.com","3255608978","cll 24 sur # 63-89","Cali");
 console.log(cliente1);
-// const product1 = new RegistrarProducto("Carburador agility", 35000, "Repuesto", "mms-001", 100);
-// console.log(product1);
+
+

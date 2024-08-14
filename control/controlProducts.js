@@ -29,3 +29,13 @@ product3.activo();
 const product4 = new RegistrarProducto("Piston akt nkd", 55000, "Repuesto", "mms-003", 0);
 console.log(product4);
 product4.inactivo();
+
+// Método para modificar un atributo específico del producto
+// modificarAtributo(nombre, Carburador) {
+//     if (this.hasOwnProperty(atributo)) {
+//         this[atributo] = valor;
+//         console.log(`El atributo '${atributo}' ha sido actualizado a '${valor}'`);
+//     } else {
+//         console.log(`El atributo '${atributo}' no existe.`);
+//     }
+// }
