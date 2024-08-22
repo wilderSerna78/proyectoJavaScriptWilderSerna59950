@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 237, 237);
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 h1,
+h2 h1,
+h3 h1,
+h4 h1,
+h5 h1,
+h6 h1 {
+    font-size: 4rem;
+    font-style: italic;
+}
+
+h1 h2,
+h2 h2,
+h3 h2,
+h4 h2,
+h5 h2,
+h6 h2 {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+h1 h3,
+h2 h3,
+h3 h3,
+h4 h3,
+h5 h3,
+h6 h3 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+h1 h4,
+h2 h4,
+h3 h4,
+h4 h4,
+h5 h4,
+h6 h4 {
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+h1 h5,
+h1 h6,
+h2 h5,
+h2 h6,
+h3 h5,
+h3 h6,
+h4 h5,
+h4 h6,
+h5 h5,
+h5 h6,
+h6 h5,
+h6 h6 {
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Navigation bar navbar --/-- Barra de navegación */
+.navbar {
+    background-color: rgb(255, 232, 0);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h3 {
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+
+
+
+footer {
+    height: 3.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    background-color: #c2c2c2;
+    position: sticky;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+}
