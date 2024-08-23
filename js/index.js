@@ -1,23 +1,14 @@
-// Identificacion al titulo de la barra  de navegación.
-const main = document.getElementsByTagName("main");
+const navbar = document.getElementById("navbarOne");
+console.log(navbar);
 
-let navbar = document.getElementById("navbarOne").innerText;
+const button = document.querySelector('#selector');
+const buttonTwo = document.querySelector('#selector2');
+// const button = document.getElementById("#selector");
 
-let cardsToModify = document.getElementById("cards");
-let cards = document.createElement("div")
-cards.innerHTML = "Esto es una divición creada dinamicamente"
-// console.log(cardsToModify);
-cardsToModify.append(cards);
-let inputName = document.createElement("input");
-let inputCost = document.createElement("input");
+button.addEventListener("click", () => {
+    console.log("Se selecciono producto 1");
+})
 
-// cardsToModify.remove();
-// main[0].remove();
-
-cardsToModify.appendChild(inputName);
-cardsToModify.appendChild(inputCost);
-inputName.id = "nameProduct";
-inputCost.id = "costProduct";
-
-
-
+buttonTwo.onclick = () => {
+    console.log("Se selecciono producto 2");
+}
