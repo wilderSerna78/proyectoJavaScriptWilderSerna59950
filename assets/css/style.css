@@ -227,4 +227,42 @@ footer p {
       grid-template-columns: 1fr;
     }
   }
+
+/* Search engine section --//-- Sección de buscadores */
+.presentation-products {
+  background-color: #cdcdcd;
+  min-height: 60px;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  box-sizing: border-box;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: rgb(255, 232, 0);
+  color: white;
+  cursor: pointer;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+}
   
