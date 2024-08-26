@@ -51,3 +51,14 @@ buttonEight.onclick = () => {
 buttonNine.onclick = () => {
     console.log("Se selecciono producto 9");
 }
+
+
+const entradaBusqueda = document.querySelector('#searchEntry');
+
+// entradaBusqueda.onchange = () => {
+//     console.log("Cambiando el valor del input " + entradaBusqueda.value);
+// }
+
+entradaBusqueda.addEventListener('input', () => {
+    console.log(entradaBusqueda.value);
+})
