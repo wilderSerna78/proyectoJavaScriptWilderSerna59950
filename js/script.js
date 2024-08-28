@@ -12,6 +12,9 @@
 // })
 
 let formulario = document.querySelector('#registrationForm');
+let nombre;
+let edad;
+let email;
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault();
