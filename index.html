@@ -75,13 +75,47 @@
     </header>
 
     <main>
-        <h1>Proyecto Final</h1>
+        <!-- <h1>Proyecto Final</h1> -->
+        <section>
+            <!-- Login code --/-- Código de iniciar sesión -->
+            <div id="registro" class="login">
+                <div class="logo"><a href="./../index.html">
+                        <img src="./../assets/image/LogoMs2.png" class="avatar" alt="Avatar Image">
+                    </a>
+                </div>
+                <h2>MMS-Repuestos</h2>
+                <form id="registrationForm">
+                    <!-- ENTRY OF NAMES -->
+                    <label for="nombres">Ingrese su Nombre</label>
+                    <input type="text" id="nombres" name="nombres" required placeholder="Nombres y apellidos">
+                
+                    <!-- EMAIL ENTRY -->
+                    <label for="email">Ingrese su email</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                
+                    <label>
+                        <input type="checkbox" id="terminos" name="terminos" required>
+                        Acepto los <a href="#">términos y condiciones</a>
+                    </label><br><br>
+                
+                    <input type="submit" value="Registrar datos" class="button_grey">
+                    <a href="./../index.html">Regresar al inicio.</a><br>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h4 id="nombre"></h4>
+                <h4 id="email"></h4>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
+    <!-- <footer>
         <p>Comision #59950 | CoderHouse 2024</p>
         <p>Wider M Serna Q. | MMS-Repuestos 2024</p>
-    </footer>
+    </footer> -->
 
     <!-- <script src="control/controlCustomers.js"></script> -->
     <!-- <script src="control/controlProducts.js"></script> -->
@@ -101,6 +135,7 @@
         crossorigin="anonymous"></script>
 
     <!-- <script src="js/index.js"></script> -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>

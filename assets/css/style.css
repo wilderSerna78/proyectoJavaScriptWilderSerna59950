@@ -96,30 +96,6 @@ h3 {
     margin-top: 1.2rem;
 }
 
-
-
-
-footer {
-    height: 3.5rem;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-
-footer {
-    background-color: #c2c2c2;
-    position: sticky;
-    bottom: 0;
-}
-
-footer p {
-    text-align: center;
-}
-
 /* Cards section --//-- sección tarjetas */
 .cards-section {
     margin-top: 20px;
@@ -265,4 +241,107 @@ footer p {
   width: 20px;
   height: 20px;
 }
-  
+
+
+/* Page login --//-- Iniciar sesión en la página */
+.login {
+  width: 380px;
+  height: 520px;
+  background: white;
+  border-radius: 20px;
+  color: #121010;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login h2 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type=email],
+.login input[type=text] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.login input[type=submit] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #686767;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login input[type=submit]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: grey;
+}
+
+.login a:hover {
+  color: blue;
+}
+
+/* area del footer. --//--footer area. */
+footer {
+  height: 3.5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+footer {
+  background-color: #c2c2c2;
+  position: sticky;
+  bottom: 0;
+}
+
+footer p {
+  text-align: center;
+}
