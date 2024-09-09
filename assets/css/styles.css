@@ -399,3 +399,23 @@ input[type="submit"]:hover {
     margin: 0 auto; /* Centrar el botón horizontalmente */
     display: block; /* Permitir que el botón se comporte como un bloque */
 }
+
+
+/* page about us --/-- pagina sobre nosotros */
+.mission {
+    padding: 50px 100px 50px 100px;
+    min-height: 480px;
+    text-align: center;
+  }
+  
+  .vision {
+    padding: 50px 100px 50px 100px;
+    min-height: 480px;
+    text-align: center;
+  }
+  
+  .our {
+    padding: 50px 100px 50px 100px;
+    min-height: 480px;
+    text-align: center;
+  }
