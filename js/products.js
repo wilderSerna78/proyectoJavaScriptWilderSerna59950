@@ -43,14 +43,14 @@ const productos = [
         id: 6,
         img: "./../assets/image/productos/farolas/farola-mms-026.jpg",
         codigo: "mms-026",
-        nombre: "Farola BWS",
+        nombre: "Farola discovery",
         precio: 48000,
         cantidad: 20
     },    {
         id: 7,
         img: "./../assets/image/productos/farolas/farolaHero-mms-027.jpg",
         codigo: "mms-027",
-        nombre: "Farora BWS",
+        nombre: "Farora agility",
         precio: 48000,
         cantidad: 20
     },    {
