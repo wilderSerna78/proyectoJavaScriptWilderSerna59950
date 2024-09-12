@@ -295,7 +295,7 @@ input[type="submit"]:hover {
 /* Estilos generales de la sección */
 .productos-section {
     padding: 20px;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
     display: flex;
     justify-content: center;
 }
@@ -459,3 +459,33 @@ input[type="submit"]:hover {
   .iconos-contac a:hover i {
     color: black;
   }
+
+
+  /* Estilo para el botón flotante --//-- Style for the floating button */
+#toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#toggle-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para modo oscuro --//-- Style for dark mode */
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: white;
+}
