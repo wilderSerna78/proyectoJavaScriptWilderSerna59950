@@ -1,0 +1,579 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(237, 237, 237);
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 h1, h2 h1, h3 h1, h4 h1, h5 h1, h6 h1 {
+  font-size: 4rem;
+  font-style: italic;
+}
+
+h1 h2, h2 h2, h3 h2, h4 h2, h5 h2, h6 h2 {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+h1 h3, h2 h3, h3 h3, h4 h3, h5 h3, h6 h3 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+h1 h4, h2 h4, h3 h4, h4 h4, h5 h4, h6 h4 {
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+h1 h5, h1 h6, h2 h5, h2 h6, h3 h5, h3 h6, h4 h5, h4 h6, h5 h5, h5 h6, h6 h5, h6 h6 {
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Navigation bar navbar --/-- Barra de navegación */
+.navbar {
+    background-color: rgb(255, 232, 0);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section presentation --/-- Sección de presentacion */
+.presentation {
+    background-color: rgb(204, 204, 204);
+    min-height: 100px;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* exhibition section --/-- sección de exhibición */
+.exhibition {
+    padding: 40px 40px 60px 40px;
+}
+
+.exhibition .column {
+    padding: 20px;
+    border: 2px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.exhibition .column:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.exhibition .spare-parts {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.exhibition i {
+    font-size: 2rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+
+.badges-container {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+/* Carousel care-staff --/-- Carrusel personal de atención */
+.work-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-team .carousel {
+    max-width: 800px;
+}
+
+.work-team .carousel-item {
+    height: 400px;
+}
+
+.work-team .carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.care-image {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.care-text {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.care-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.care-info p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .care-image {
+        height: 120px;
+        width: 120px;
+    }
+
+    .care-text {
+        font-size: 18px;
+    }
+}
+
+/* Footer --/-- Pie de pagina */
+footer {
+    min-height: 250px;
+    background-color: #1b1b32;
+}
+
+.iconos-redes a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes a:hover i {
+    color: black;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 10px;
+}
+
+/* Register email --//-- Registrar correo electronico */
+.register {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin: 50px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-info,
+.container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.register-info h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    /* background-color: #4CAF50; */
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .register {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+
+/* Product Finder Style --//-- Estilo del buscador de productos */
+.buscador {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#buscador-input {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#buscador-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+#buscador-input::placeholder {
+    color: #999;
+}
+
+
+/* Shopping card style. --//-- Estilo de tarjeta de compra. */
+/* Estilos generales de la sección */
+.productos-section {
+    padding: 20px;
+    /* background-color: #f5f5f5; */
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para el contenedor de productos (grid) */
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Estilos individuales para cada tarjeta de producto */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para la imagen del producto */
+.product-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Contenedor del contenido del producto */
+/* Estilos generales para la rejilla de productos */
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para cada tarjeta de producto */
+.productos-grid div {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    /* Centramos el contenido de la tarjeta */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    /* Bordes redondeados */
+    transition: transform 0.2s;
+    background-color: white;
+}
+
+/* Efecto hover para agrandar la tarjeta */
+.productos-grid div:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para la imagen del producto */
+.productos-grid img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    /* Redondear los bordes de la imagen */
+}
+
+/* Márgenes para los párrafos (nombre y precio del producto) */
+.productos-grid p {
+    margin: 10px 0;
+}
+
+/* Estilos para el botón */
+.button_grey {
+    /* background-color: #f0f0f0; */
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    /* Bordes redondeados para el botón */
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Efecto hover para el botón */
+.button_grey:hover {
+    background-color: #ddd;
+}
+
+/* Centramos el botón */
+.productos-grid div .button_grey {
+    margin: 0 auto;
+    /* Centrar el botón horizontalmente */
+    display: block;
+    /* Permitir que el botón se comporte como un bloque */
+}
+
+
+/* page about us --/-- pagina sobre nosotros */
+.mission {
+    padding: 50px 100px 50px 100px;
+    min-height: 480px;
+    text-align: center;
+}
+
+.vision {
+    padding: 50px 100px 50px 100px;
+    min-height: 480px;
+    text-align: center;
+}
+
+.our {
+    padding: 50px 100px 50px 100px;
+    min-height: 480px;
+    text-align: center;
+}
+
+
+/* Our company --//-- Nuestra empresa */
+.staff {
+    padding: 50px 100px 50px 100px;
+    min-height: 480px;
+    text-align: center;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.iconos-contac a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-contac i {
+    color: blue;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-contac a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-contac a:hover i {
+    color: black;
+}
+
+
+/* Estilo para el botón flotante --//-- Style for the floating button */
+#toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#toggle-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para modo oscuro --//-- Style for dark mode */
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+
+/* Page login --//-- Iniciar sesión en la página */
+.login {
+    width: 320px;
+    height: 420px;
+    background: white;
+    border-radius: 20px;
+    color: #121010;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type=email],
+.login input[type=password] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.login input[type=submit] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #686767;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login input[type=submit]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: grey;
+}
+
+.login a:hover {
+    color: blue;
+}
